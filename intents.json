@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! Welcome to Cambodia Tourism Chatbot. How can I help you?", "Hi there! Planning a trip to Cambodia?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+      "responses": ["Have a great trip!", "Goodbye! Enjoy your visit to Cambodia."]
+    },
+    {
+      "tag": "angkor_wat",
+      "patterns": ["Tell me about Angkor Wat", "Where is Angkor Wat?", "What is Angkor Wat?", "Angkor Wat info"],
+      "responses": ["Angkor Wat is a famous temple complex in Siem Reap, Cambodia, and the largest religious monument in the world.", "Located in Siem Reap, Angkor Wat is a must-visit UNESCO World Heritage site known for its stunning architecture."]
+    },
+    {
+      "tag": "currency",
+      "patterns": ["What currency is used in Cambodia?", "Cambodian currency", "Money in Cambodia", "Can I use US dollars?"],
+      "responses": ["Cambodia uses the Riel (KHR), but US Dollars are widely accepted everywhere.", "The official currency is the Cambodian Riel, though USD is commonly used for most transactions."]
+    },
+    {
+      "tag": "visa",
+      "patterns": ["Do I need a visa for Cambodia?", "Cambodia visa requirements", "How to get a visa"],
+      "responses": ["Most visitors need a visa. You can get an e-Visa online or a Visa on Arrival at major airports and land borders.", "A tourist visa is required for most nationalities, obtainable via e-Visa or on arrival."]
+    },
+    {
+      "tag": "best_time",
+      "patterns": ["When is the best time to visit Cambodia?", "Best season to visit", "Cambodia weather"],
+      "responses": ["The best time to visit is during the dry season, from November to April.", "November to February is ideal as the weather is cooler and dry."]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What food should I try in Cambodia?", "Cambodian dishes", "Khmer food recommendations"],
+      "responses": ["You should try Fish Amok, Beef Lok Lak, and Khmer Curry.", "Popular traditional foods include Fish Amok (steamed fish curry) and Nom Banh Chok (Khmer noodles)."]
+    },
+    {
+      "tag": "phnom_penh",
+      "patterns": ["What is the capital?", "Tell me about Phnom Penh", "Places to visit in Phnom Penh"],
+      "responses": ["Phnom Penh is the capital city. Key attractions include the Royal Palace, National Museum, and Tuol Sleng Genocide Museum."]
+    },
+    {
+      "tag": "beaches",
+      "patterns": ["Does Cambodia have beaches?", "Best beaches in Cambodia", "Koh Rong"],
+      "responses": ["Yes! Sihanoukville and the islands of Koh Rong and Koh Rong Sanloem offer beautiful beaches and clear waters."]
+    },
+    {
+      "tag": "transportation",
+      "patterns": ["How to get around?", "Transportation in Cambodia", "Tuk tuk"],
+      "responses": ["Tuk-tuks are the most popular way to get around cities. For long distances, buses and domestic flights are available. Apps like PassApp and Grab are very useful."]
+    }
+  ]
+}
